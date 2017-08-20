@@ -48,7 +48,7 @@ epochs = 5
 
 n = NeuralNetwork(input_nodes, hidden_nodes, output_nodes, learning_rate)
 
-training_data_file = open("mnist_dataset/mnist_train.csv", 'r')
+training_data_file = open("mnist_train.csv", 'r')
 training_data_list = training_data_file.readlines()
 training_data_file.close()
 
@@ -63,7 +63,7 @@ for e in range(epochs):
 # Testing the neural network
 score = []
 
-test_data_file = open("mnist_dataset/mnist_test.csv", 'r')
+test_data_file = open("mnist_test.csv", 'r')
 test_data_list = test_data_file.readlines()
 test_data_file.close()
 
