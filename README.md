@@ -1,8 +1,9 @@
 # MNIST-NeuralNetwork
 A simple neural network designed to train with MNIST csv datas to recognize handwritten numbers.
-MNIST data files are not included in repository
-download training dataset here: https://pjreddie.com/media/files/mnist_train.csv
-download  testing dataset (to evaluate performance, it has to be a different dataset): https://pjreddie.com/media/files/mnist_test.csv
+MNIST data files are not included in repository since the files are too big
+Download training dataset here: https://pjreddie.com/media/files/mnist_train.csv
+Download  testing dataset (to evaluate performance, it has to be a different dataset): https://pjreddie.com/media/files/mnist_test.csv
+Put both files as the same directory as the python file
 
 This neural network has 1 input layer, 1 hidden layer and a output layer
 Input layer has 784 nodes as there are 28x28 pixels as input from the image
