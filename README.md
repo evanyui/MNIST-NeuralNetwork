@@ -10,8 +10,9 @@ Hidden layer has 200 nodes, and output has 10 nodes which are the result of digi
 It has an average performance of 97% accuracy
 Input takes a 28x28 png image file, repository included two examples, switch the filename to test different files
 
-Use python3 to run, 
+Use python3 to run handwritten_numbers_nn.py
 required to install numpy and matplotlib
+Or install jupyter to open NN.ipynb in interactive python
 When run, it will train the neural network first, and run performance test to evaluate accuracy
 then classify the result of the input image file
 Training should take around 10 to 20 minutes depend on your machine
